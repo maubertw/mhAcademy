@@ -1,0 +1,340 @@
+box-styles.css file:
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gothic A1', sans-serif;
+
+}
+
+
+body {
+   font-family: 'Gothic A1', sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  height: 30vh;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+
+
+}
+
+input {
+  width: 400px;
+  height: 25px;
+  border-radius: 12px;
+}
+
+
+.nav-bar {
+  background-color: #a9b2b2;
+  /* #16f4f1; */
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 30px;
+  font-weight: bold;
+  color: #3a3d3d;
+  height: 60px;
+
+}
+
+
+
+.nav-elements {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-right: 100px;
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+
+.header {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+
+/* .header button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #16f4f1;
+
+} */
+
+
+.instance-boxes {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+
+}
+
+
+
+
+/* --------------campus item------------------------- */
+
+
+
+.campus-box {
+  height: 130px;
+  width: 350px;
+  background-color: #d4d8d8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+
+}
+
+
+.small-campus-img-placeholder {
+  background-color: white;
+  height: 110px;
+  width: 110px;
+  margin-left: 20px
+
+}
+
+
+.campus-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110px;
+  width: 150px;
+  align-content: space-between;
+  padding: 0 30px;
+
+}
+
+
+.campus-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+  height: 20px;
+  line-height: 2%;
+
+}
+
+
+.campus-modifyers {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: baseline;
+  align-self: flex-end;
+
+}
+
+
+.campus-modifyers button {
+  background-color: #f98e8e;
+  border-radius: 12px;
+  padding: 5px 20px;
+
+}
+
+
+.campus-name {
+  font-size: 1.2em;
+
+}
+
+
+/* --------------student item------------------------- */
+
+
+.student-box {
+  height: 275px;
+  width: 200px;
+  background-color: #d4d8d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  margin: 10px;
+}
+
+
+.student-img-placeholder {
+  background-color: white;
+  height: 130px;
+  width: 150px;
+  margin-bottom: 20px;
+
+
+}
+
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50px;
+  line-height: 5%;
+
+
+}
+
+
+.student-name {
+  font-size: 1.2em;
+
+}
+
+/* --------------full campus page------------------------- */
+  /* border: 5px solid red; */
+
+.campus-main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  justify-content: center;
+  align-content: center;
+  align-items: space-around;
+
+}
+
+
+.campus-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+
+.campus-left-content{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  height: 400px;
+  justify-content: space-between;
+
+}
+
+
+.campus-img-placeholder {
+  height: 450px;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+  background-color: #d4d8d8;
+
+}
+
+
+.campus-hero {
+  height: 415px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+.campus-hero h1 {
+  padding: 0;
+  line-height: 5%;
+
+}
+
+
+.campus-mod-buttons {
+  display: flex;
+  align-self: flex-end;
+  width: 200px;
+  height: 200px;
+  justify-content: space-around;
+
+}
+
+
+.campus-edit-button {
+  display: flex;
+  padding: 5px 20px 20px 20px;
+  border-radius: 12px;
+  background-color: #53ed83;
+
+}
+
+
+.campus-delete-button {
+
+  border-radius: 12px;
+  background-color: #f98e8e;
+  padding: 5px 20px 20px 20px;
+
+}
+
+
+.student-listing-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-right: 30px;
+
+}
+
+
+.student-listing-header {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-items: baseline;
+  margin-left: 30px;
+
+}
+
+
+.add-student-button {
+  padding: 15px 40px ;
+  border-radius: 12px;
+  /* background-color: #d4d8d8; */
+  background-color: #16f4f1;
+}
+
+.student-avatar-area{
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-b;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0 30px;
+
+
+}
